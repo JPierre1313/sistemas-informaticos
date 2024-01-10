@@ -1,0 +1,48 @@
+Ejercicio 1:
+	//ubicarse en el repositorio
+		cd/c/users/EQ4321/git
+
+	//Definir el nombre de usuario
+		git config --global user.name "[JEAN PIERRE]"
+
+	//Definir el correo electronico
+		git config --global user.email "[jeanpinie13998ef9@linkiafp.online]"
+
+	//Activar el coloreado de la salida
+ 		git config --global color.ui auto
+
+Ejercicio 2:
+
+	//Crea un repositorio nuevo con el nombre libro
+		git init libro
+
+
+Ejercicio 3:
+	//Comprobar el estado del repositorio.
+		git status
+
+	//Crear un fichero INDICE.txt con el contenido...
+		echo "Capitulo 1: introduccion a Git">indice.txt
+		echo "Capitulo 2: Flujo de trabajo básico">>
+		echo "Capitulo 3: Repositorios remotos">>
+
+	//Comprobar el estado del repositorio de nuevo
+		git status
+
+	//Añadir el fichero a la zona de intercambio temporal
+		git add INDICE.txt
+
+	//Volver a comprobar el estado del repositorio
+		git status
+Ejercicio 4:
+git commit -m "[AÑADIDO INDICE DEL LIBRO]"
+Ejercicio 5:
+nano INDICE.txt
+cat INDICE.txt
+git log
+git add INDICE.txt
+git commit --amend -m "Añadido capítulo 3 sobre gestión de ramas"
+Ejercico 5
+git log
+git commit -m "[Añadido capìtulo 3 sobre gestion de ramas.]"
+git log
