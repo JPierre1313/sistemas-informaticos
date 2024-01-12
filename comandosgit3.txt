@@ -1,0 +1,36 @@
+EJERCICIO1 
+git branch bibliografia
+EJERCICIO 2
+echo "texto">/capitulos/capitulo4.txt
+git add .
+git commit -m "AÑADIDO CAPITULO 4"
+git log
+EJERCICIO 3
+git branch bibliografia
+git checkout bibliografia
+echo "Chacon, S, Straub, B.Pro Git.Apress  .Apress>bibliografia.txt
+git add .
+git commit - m" AÑADIDA PRIMERA REFERENCIA BIBLIOGRAFICA"
+git log
+EJERCICIO 4
+git checkout master
+git merge bibliografia
+git log
+git branch -d bibliografia
+git log
+EJERCICIO 5
+git branch bibliografia
+git checkout bibliografia
+echo "Chacon.S and Straub, b.Pro Git. Apress. Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)>bibliografia.txt
+git add .
+git commit -m "[AÑADIDA NUEVA REFERENCIA BIBLIOGRAFICA]"
+git checkout master
+git add .
+git commit -m "[AÑADIDA NUEVA REFERENCIA BIBLIOGRAFICA]"
+
+git add .
+git commit -m "[Resuelto conflicto de bibliografía.]”
+git log
+
+
+
